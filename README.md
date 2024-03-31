@@ -1,8 +1,8 @@
 # KHADEEJAH-
-Introduction
+Introduction:
 The objective of this assignment was to develop a search engine using MapReduce, capable of processing a large dataset of Wikipedia articles. The search engine consists of several components, including word enumeration, document count, indexing, and query processing, each implemented as a separate MapReduce job.
 
-Implementation Details
+Implementation Details:
 Word Enumeration (WordEnumeration class): This component extracts words from each document in the dataset and emits key-value pairs where the word is the key and the count is 1. It counts the occurrences of each word across all documents.
 
 Document Count (DocumentCount class): This component calculates the total count of documents in the dataset and emits key-value pairs where each word is associated with its total count across all documents.
